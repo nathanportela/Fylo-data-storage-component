@@ -1,0 +1,57 @@
+@media (max-width: 1024px)
+{
+    body{
+        min-width: 320px;
+        min-height: 500px;
+        background-size: 100% 30%;
+    }
+
+    .hero{
+        width: 85%;
+        height: 370px;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }
+
+    .fylo-box{
+        margin: 0;
+        width: 540px;
+    }
+}
+
+@media (max-width: 650px)
+{
+    body{
+        background-image:url("images/bg-mobile.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+        background-size: 100% 100%;
+    }
+
+    .fylo-box{
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .used-storage{
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .used-storage-content{
+        margin: 40px 30px 40px 30px;
+    }
+
+    .retangle .arrow-left{
+        display: none;
+    }
+
+    .ballon{
+        top: 85%;  
+        right: 50%;    
+        transform: translate(50%, -15%);
+    }
+        
+}

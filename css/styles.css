@@ -25,6 +25,14 @@ body{
 
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: 320px;
+}
+
+.hero{
+    display: flex;
     align-items: flex-end;    
     justify-content: center;
     height: 200px;
@@ -36,7 +44,7 @@ body{
     height: 200px;
     background-color: hsl(228, 56%, 26%);
     border-radius: 0.5rem 6rem 0.5rem 0.5rem;
-    margin-right: 30px;    
+    margin-right: 30px;
 }
 
 .fylo-content{
@@ -61,6 +69,7 @@ body{
 
 
 .used-storage{
+    margin-top: 15px;
     width: 540px;
     height: 155px;
     border-radius: 10px;
@@ -75,7 +84,6 @@ body{
     position: absolute;
     right: 42px;
     top: -45px;
-
 }
 
 .balloon-content{
@@ -174,7 +182,4 @@ body{
 
 .attribution{
     color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
