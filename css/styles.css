@@ -5,7 +5,7 @@ body,html {
   font-family: 'Raleway', sans-serif;
 }
 
-p {
+p{
     margin: 0;
 }
 
@@ -180,6 +180,7 @@ body{
     font-weight: 700;
 }
 
-.attribution{
+footer{
+    font-size: 11px;
     color: white;
 }
